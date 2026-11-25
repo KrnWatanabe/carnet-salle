@@ -1,0 +1,32 @@
+CARNET DE SALLE — VERSION HORS LIGNE
+
+Contenu du dossier :
+  index.html            l'application
+  manifest.webmanifest  permet de l'installer comme une app
+  sw.js                 permet de l'ouvrir sans réseau
+  icon-*.png            icônes
+
+1) Mettre en ligne une seule fois (gratuit, GitHub Pages)
+   - Crée un compte sur github.com.
+   - « New repository », nom au choix (ex. carnet-salle), Public, puis « Create ».
+   - « uploading an existing file » : glisse les 6 fichiers (pas le dossier), puis « Commit changes ».
+   - Settings > Pages > Source : « Deploy from a branch », branche « main », dossier « / (root) », Save.
+   - Après 1 à 2 minutes, l'adresse est : https://TON-PSEUDO.github.io/carnet-salle/
+   Le code est public, tes données non : elles restent uniquement sur ton téléphone.
+
+2) Installer sur Android
+   - Ouvre l'adresse dans Chrome (avec réseau).
+   - Menu ⋮ > « Installer l'application » (ou « Installer et créer un raccourci »).
+   - Ouvre l'app une fois depuis l'icône. Ensuite elle fonctionne sans réseau.
+
+3) Récupérer tes données de la version Claude
+   - Dans la version Claude : Exercices > Sauvegarde > Exporter (JSON).
+   - Transfère le fichier sur le téléphone si besoin.
+   - Dans l'app installée : Exercices > Sauvegarde > Importer > choisis le fichier.
+
+4) Sauvegardes
+   - Les données ne sont que sur le téléphone. Désinstaller l'app ou effacer les données de Chrome les supprime.
+   - L'app te rappelle d'exporter une sauvegarde toutes les 2 semaines.
+
+5) Mettre à jour
+   - Remplace index.html dans le dépôt GitHub. La nouvelle version s'affiche à la 2e ouverture de l'app avec réseau.
